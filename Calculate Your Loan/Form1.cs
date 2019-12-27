@@ -1006,6 +1006,7 @@ namespace Calculate_Your_Loan
                 {
                     GunaTextBox t = c as GunaTextBox;
                     t.Visible = false;
+                  
                 }
             }
             paydate.Text = DateTime.Now.ToShortDateString();
